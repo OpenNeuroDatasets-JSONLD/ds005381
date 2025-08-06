@@ -1,5 +1,5 @@
 # Discrimination-Estimation Task #
-This project aimed to investigate the dynamic interplay of decision-making and working memory. A sequential discrimination-estimation task (DET) was developed to probe decision-making and working memory. For details about the experimental paradigm, please refer to https://doi.org/10.1016/j.neuron.2025.07.003.
+This project aimed to investigate the dynamic interplay of decision-making and working memory. A sequential discrimination-estimation task (DET) was developed to probe decision-making and working memory. For details, please refer to https://doi.org/10.1016/j.neuron.2025.07.003.
 
 ## BIDS dataset ##
 Data were converted from DICOM source files using dcm2niix. Scans were divided into the main task (`DET`), retinotopy-mapping task (`Retino`), and resting scan (`Resting`). Stimuli information and behavioral responses for the main task are contained in `events.tsv` files.
